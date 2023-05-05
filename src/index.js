@@ -22,7 +22,7 @@ const observer = new IntersectionObserver(onIntersection, { threshold: 0.5 });
 const lightbox = new simpleLightbox('.gallery a');
 
 let page = 1;
-let limit = 120;
+let limit = 40;
 let searchQuery = "";
 
 // Стартовий пошук========================
